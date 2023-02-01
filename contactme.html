@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <div class="topnav">
+        <a class="active" href="./homepage.html">Home</a>
+        <a href="./video.html">Videos</a>
+        <a href="./pictures.html">Pictures</a>
+        <a href="./contactme.html">Contact Me</a>
+      </div>
+    <head>
+        <title> Caleb's Contact Information</title>
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <script type="text/javascript" src="./backend.js"></script>
+    </head>
+    <body>
+        <h1 class="title" id="top-of-page"> Information</h1>
+        <h2>Information:</h2> 
+            <p> Please fill out the following form and I <br>will get back with you as soon as possible:</p>
+
+            <form action="/form-handling-url" method="post">
+                <fieldset>
+                <legend></legend>
+            
+            
+                <div>
+                    <label for="firstName">First Name:</label><br>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+            
+                <div>
+                    <label for="lastName">Last Name:</label><br>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+            
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email_address">
+                </div>
+            
+                <div>
+                    
+                    
+                    <label for="role">Service:</label><br>
+                    <select id="role" name="user_role_name">
+                        <option value="Photography">Photography</option>
+                        <option value="Videography">Videography</option>
+                        <option value="WebDesign">Web Design</option>
+                        <option value="Other">Other</option>
+                        </select><br>
+                    <label for="date">Need by Date:</label><br>
+                    
+                    
+                    
+                    <input type="date" id="date" name="date">
+                </div>
+                
+                <div>
+                    <div class="choose"><br>This Service is For?:<br></div>
+                    <input type="radio" id="student" name="youarea" value="student">
+                    <label for="student">Student</label>
+                    <input type="radio" id="Buisness" name="youarea" value="Buisness">
+                    <label for="Buisness">Buisness</label>
+                    <input type="radio" id="Personal" name="youarea" value="Personal">
+                    <label for="Personal">Personal</label>
+                </div>
+    
+                <div>
+                    <br><label for="comments">Additonal Comments:</label><br>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+    
+    
+                <div class="text"><br>
+                    <input type="checkbox" id="signup" name="signup" value="Signup">
+                    <label for="signup">Sign up for news</label>
+                    <input type="checkbox" id="terms" name="terms" value="Terms">
+                    <label for="terms"> Agree to terms</label>
+                    
+                    
+                </div>
+            
+                <div class="submit">
+                    <button type="submit">Submit</button>
+                </div>
+            
+            
+                </fieldset>
+            </form>
+        
+    </body>
+</html>

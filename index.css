@@ -27,3 +27,46 @@
     border: 6px solid black;
 
 }
+
+fieldset {
+    border:5px solid rgb(7, 0, 0);
+    display:inline;
+    background: rgb(224, 220, 220);
+    
+
+  }
+  legend {
+    padding: 0.2em 0.5em;
+    color: rgb(5, 0, 0);
+    font-size: 15px;
+    position: relative;
+    margin-left: 15%;
+    margin-right: auto;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+  }
+  legend:before {
+    position: absolute;
+    content: '';
+    height: 8px;
+ 
+    left: 0px;
+    top: 7px;
+  }
+  legend:after {
+    position: absolute;
+    content: '';
+    height: 8px;
+  
+    right: 0px;
+    top: 7px;
+  }  
+
+.submit {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
