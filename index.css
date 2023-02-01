@@ -1,0 +1,29 @@
+.topnav {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px solid red;
+    background: rgb(223, 214, 214);
+}
+
+.title {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    background:rgb(223, 214, 214)
+}
+
+.socials {
+    display: flex;
+    align-items: flex-start;
+    margin-left:0%;
+}
+
+.videos {
+    border: 6px solid black;
+
+}
