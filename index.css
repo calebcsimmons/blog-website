@@ -6,6 +6,18 @@
     background: rgb(223, 214, 214);
 }
 
+.counter {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  background: pink;
+  height:35px;
+  width:250px;
+  position: absolute;
+  top: 65px;
+  left: 65%;
+}
 
 .title {
     border-top: 1px solid black;

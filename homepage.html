@@ -7,9 +7,10 @@
         <a href="./contactme.html">Contact Me</a>
       </div>
     <head>
-        <title> Caleb's Vlog Website</title>
+        <title> Caleb's Vlog Website</title> 
         <link rel="stylesheet" type="text/css" href="./index.css">
         <script type="text/javascript" src="./backend.js"></script>
+        <script async src="https://api.countapi.xyz/hit/www.calebcsimmons.com/074003a0-fb8c-4fd9-a6cf-f6061fc09f9a?callback=websiteVisits"></script>
     </head>
     <body>
         
@@ -19,8 +20,14 @@
         <div class="socials"> <!--icon library -->
             <p><a href="https://www.youtube.com/channel/UCiAnerL4_s4yH9eL-W9lccw"><img src="./pictures/yticon.jpg" style="width:65px;height:65px;"></a></p>
             <p><a href="https://www.instagram.com/simmons.shoots"><img src="./pictures/instaicon.png" style="width:50px;height:50px;"></a></p>
+            
 
         </div>
+
+        <!--Website View Counter-->
+        <h4 class="counter">This site has been visited <span id="visits"></span> times.</h4>
+        <!-- To reset the count, paste the folllowing into a web browser and click enter:
+        https://api.countapi.xyz/set/calebcsimmons.com/074003a0-fb8c-4fd9-a6cf-f6061fc09f9a?value=0 -->
 
         <h2> Upcoming Adventures:</h2>
         <p style="font-size: 18px;">Hello all! My next adventures are as follows:</p><br>
@@ -38,7 +45,8 @@
         <h2 id="United Kingdom"> United Kingdom</h2>
         <p> United Kingdom trip. Spent in London, Birmingham, etc.</p>
 
+
  
-            </p>
+        
     </body>
 </html>
